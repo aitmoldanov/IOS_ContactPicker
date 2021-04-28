@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		17B217332242888C007D69A4 /* EditFriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFriendTableViewController.swift; sourceTree = "<group>"; };
 		2021C6B81B67CD5D0072F4C5 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
-		202D13FF1B3F748E0012E77B /* RWConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202D13FF1B3F748E0012E77B /* ContactPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		202D14021B3F748E0012E77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		202D14071B3F748E0012E77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		202D140E1B3F748E0012E77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		202D13F61B3F748E0012E77B = {
 			isa = PBXGroup;
 			children = (
-				202D14011B3F748E0012E77B /* RWConnect */,
+				202D14011B3F748E0012E77B /* ContactPicker */,
 				202D14001B3F748E0012E77B /* Products */,
 			);
 			indentWidth = 2;
@@ -54,12 +54,12 @@
 		202D14001B3F748E0012E77B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				202D13FF1B3F748E0012E77B /* RWConnect.app */,
+				202D13FF1B3F748E0012E77B /* ContactPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		202D14011B3F748E0012E77B /* RWConnect */ = {
+		202D14011B3F748E0012E77B /* ContactPicker */ = {
 			isa = PBXGroup;
 			children = (
 				202D14021B3F748E0012E77B /* AppDelegate.swift */,
@@ -72,15 +72,15 @@
 				202D140E1B3F748E0012E77B /* Info.plist */,
 				20E8D13E1B3F766A00A0ACE9 /* Assets.xcassets */,
 			);
-			path = RWConnect;
+			path = ContactPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		202D13FE1B3F748E0012E77B /* RWConnect */ = {
+		202D13FE1B3F748E0012E77B /* ContactPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "RWConnect" */;
+			buildConfigurationList = 202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "ContactPicker" */;
 			buildPhases = (
 				202D13FB1B3F748E0012E77B /* Sources */,
 				202D13FC1B3F748E0012E77B /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = RWConnect;
+			name = ContactPicker;
 			productName = RWConnect;
-			productReference = 202D13FF1B3F748E0012E77B /* RWConnect.app */;
+			productReference = 202D13FF1B3F748E0012E77B /* ContactPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "RWConnect" */;
+			buildConfigurationList = 202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "ContactPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				202D13FE1B3F748E0012E77B /* RWConnect */,
+				202D13FE1B3F748E0012E77B /* ContactPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "RWConnect" */ = {
+		202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "ContactPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				202D140F1B3F748E0012E77B /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "RWConnect" */ = {
+		202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "ContactPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				202D14121B3F748E0012E77B /* Debug */,
